@@ -1,0 +1,7 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+    
+    jalismrs_exception_middleware.exception_middleware:
+        class: 'Jalismrs\Symfony\Bundle\JalismrsExceptionMiddlewareBundle\EventSubscriber\ExceptionMiddleware'
