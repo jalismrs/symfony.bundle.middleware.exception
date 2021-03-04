@@ -19,16 +19,16 @@
   "config" : {
     "sort-packages" : true
   },
-  "description" : "Adds a protected controller interface and its middleware along with a JSON middleware converter",
+  "description" : "Adds several excpetion middlewares",
   "license": "MIT",
-  "name" : "jalismrs/symfony.bundle.middleware.api",
+  "name" : "jalismrs/symfony.bundle.middleware.exception",
   "require-dev" : {
     "composer/package-versions-deprecated" : "*",
     "phpunit/phpunit" : "9.4.2",
     "roave/security-advisories" : "dev-master"
   },
   "require" : {
-    "php" : "^7.4",
+    "php" : "^7.4 || ^8.0",
     "ext-json" : "*",
     "symfony/config" : "^5.0",
     "symfony/http-kernel" : "^5.0",
